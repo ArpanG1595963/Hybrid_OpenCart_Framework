@@ -3,6 +3,7 @@ package pageObjects;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.ui.Select;
 import org.openxmlformats.schemas.drawingml.x2006.main.CTRegularTextRun;
 
 import testBase.BasePage;
@@ -30,7 +31,13 @@ public class productSearchPage extends BasePage
 	WebElement btnSearch;
 	
 	@FindBy(xpath="//img[@title=\"iMac\"]")
-	WebElement prodBydescription;
+	WebElement prodBydescription_Mac;
+	
+	@FindBy(name = "category_id")
+	WebElement dropdownCategoryList;
+	
+	Select dropdown_category=new Select(dropdownCategoryList);
+	
 	
 	public String verifysearchedprodName()
 	{
@@ -61,6 +68,11 @@ public class productSearchPage extends BasePage
 	}
 	public boolean searchedProdExistsByDescription()
 	{
-		return prodBydescription.isDisplayed();
+		return prodBydescription_Mac.isDisplayed();
 	}
+	public void selectCategory(String category)
+	{
+		dropdown_category.selectByVisibleText(category);
+	}
+	
 }

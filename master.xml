@@ -10,12 +10,13 @@
     	<!--<class name="testCases.TS001_TC01_AccountRegistrationTest"/>
     	<class name="testCases.TS001_TC02_verifyNewsLetterFieldRegistration"/>
     	<class name="testCases.TS001_TC03_VerifymandatoryFieldsRegistration"/>
-      	<class name="testCases.TS002_TC01_verifyLoginTest"/>-->
+      	<class name="testCases.TS002_TC01_verifyLoginTest"/>
       	<class name="testCases.TS002_TC02_DataDriventTestLogin"/>
-      	<!--<class name="testCases.TS003_TC01_product_searchByName"/>
+      	<class name="testCases.TS003_TC01_product_searchByName"/>
       	<class name="testCases.TS003_TC02_NoProductExists"/>
-      	<class name="testCases.TS003_TC03_searchProductByDescription"/>
-     	<class name="testCases.TS004_TC01_ForgotPassword"/>-->
+      	<class name="testCases.TS003_TC03_searchProductByDescription"/>-->
+      	<class name="testCases.TS003_TC04_searchProdByCategory"/>
+     	<!--<class name="testCases.TS004_TC01_ForgotPassword"/>-->
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

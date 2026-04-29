@@ -5,14 +5,13 @@
     <parameter name="os" value="Windows"/>
     <parameter name="browser" value="Chrome"/>
     <classes>
-      <class name="testCases.TS001_TC02_verifyNewsLetterFieldRegistration">
+      <class name="testCases.TS003_TC04_searchProdByCategory">
         <methods>
           <include name="tearDown"/>
-          <include name="verify_registration_msg"/>
           <include name="setup"/>
-          <include name="create_registration"/>
+          <include name="searchProdByWrongCategory"/>
         </methods>
-      </class> <!-- testCases.TS001_TC02_verifyNewsLetterFieldRegistration -->
+      </class> <!-- testCases.TS003_TC04_searchProdByCategory -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->
