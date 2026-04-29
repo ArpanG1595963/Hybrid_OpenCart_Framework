@@ -1,0 +1,170 @@
+<html>
+<head>
+<title>TestNG:  Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>18/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Wed Apr 29 17:00:03 IST 2026</td>
+</tr>
+<tr><td>Total time:</td><td>139 seconds (139424 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='testCases.TS002_TC01_verifyLoginTest.verifyLogin()'><b>verifyLogin</b><br>Test class: testCases.TS002_TC01_verifyLoginTest</td>
+<td></td>
+<td>2</td>
+<td>testCases.TS002_TC01_verifyLoginTest@78641d23</td></tr>
+<tr>
+<td title='testCases.TS001_TC01_AccountRegistrationTest.create_registration()'><b>create_registration</b><br>Test class: testCases.TS001_TC01_AccountRegistrationTest</td>
+<td></td>
+<td>6</td>
+<td>testCases.TS001_TC01_AccountRegistrationTest@27216cd</td></tr>
+<tr>
+<td title='testCases.TS002_TC02_DataDriventTestLogin.verify_DDTlogin()'><b>verify_DDTlogin</b><br>Test class: testCases.TS002_TC02_DataDriventTestLogin<br>Parameters: abc123@gmail.com, test@123, Valid</td>
+<td></td>
+<td>3</td>
+<td>testCases.TS002_TC02_DataDriventTestLogin@74589991</td></tr>
+<tr>
+<td title='testCases.TS001_TC03_VerifymandatoryFieldsRegistration.verifyLastNameField()'><b>verifyLastNameField</b><br>Test class: testCases.TS001_TC03_VerifymandatoryFieldsRegistration</td>
+<td></td>
+<td>2</td>
+<td>testCases.TS001_TC03_VerifymandatoryFieldsRegistration@3daf7722</td></tr>
+<tr>
+<td title='testCases.TS001_TC02_verifyNewsLetterFieldRegistration.verify_newsletterfield()'><b>verify_newsletterfield</b><br>Test class: testCases.TS001_TC02_verifyNewsLetterFieldRegistration</td>
+<td></td>
+<td>2</td>
+<td>testCases.TS001_TC02_verifyNewsLetterFieldRegistration@5f354bcf</td></tr>
+<tr>
+<td title='testCases.TS003_TC03_searchProductByDescription.verifyProductnotexist()'><b>verifyProductnotexist</b><br>Test class: testCases.TS003_TC03_searchProductByDescription</td>
+<td></td>
+<td>0</td>
+<td>testCases.TS003_TC03_searchProductByDescription@1fc32e4f</td></tr>
+<tr>
+<td title='testCases.TS002_TC02_DataDriventTestLogin.verify_DDTlogin()'><b>verify_DDTlogin</b><br>Test class: testCases.TS002_TC02_DataDriventTestLogin<br>Parameters: lakshmi@yahoo.com, Laxmi, Valid</td>
+<td></td>
+<td>3</td>
+<td>testCases.TS002_TC02_DataDriventTestLogin@74589991</td></tr>
+<tr>
+<td title='testCases.TS003_TC03_searchProductByDescription.verifyprodByDescription()'><b>verifyprodByDescription</b><br>Test class: testCases.TS003_TC03_searchProductByDescription</td>
+<td></td>
+<td>0</td>
+<td>testCases.TS003_TC03_searchProductByDescription@1fc32e4f</td></tr>
+<tr>
+<td title='testCases.TS002_TC02_DataDriventTestLogin.verify_DDTlogin()'><b>verify_DDTlogin</b><br>Test class: testCases.TS002_TC02_DataDriventTestLogin<br>Parameters: pavanoltraining@gmail.com, test@123, Invalid</td>
+<td></td>
+<td>12</td>
+<td>testCases.TS002_TC02_DataDriventTestLogin@74589991</td></tr>
+<tr>
+<td title='testCases.TS001_TC02_verifyNewsLetterFieldRegistration.create_registration()'><b>create_registration</b><br>Test class: testCases.TS001_TC02_verifyNewsLetterFieldRegistration</td>
+<td></td>
+<td>5</td>
+<td>testCases.TS001_TC02_verifyNewsLetterFieldRegistration@5f354bcf</td></tr>
+<tr>
+<td title='testCases.TS002_TC02_DataDriventTestLogin.verify_DDTlogin()'><b>verify_DDTlogin</b><br>Test class: testCases.TS002_TC02_DataDriventTestLogin<br>Parameters: laks@yahoo.com, xyz, Invalid</td>
+<td></td>
+<td>10</td>
+<td>testCases.TS002_TC02_DataDriventTestLogin@74589991</td></tr>
+<tr>
+<td title='testCases.TS003_TC02_NoProductExists.verifyNoProductExists()'><b>verifyNoProductExists</b><br>Test class: testCases.TS003_TC02_NoProductExists</td>
+<td></td>
+<td>0</td>
+<td>testCases.TS003_TC02_NoProductExists@4716be8b</td></tr>
+<tr>
+<td title='testCases.TS004_TC01_ForgotPassword.validateCredentials()'><b>validateCredentials</b><br>Test class: testCases.TS004_TC01_ForgotPassword</td>
+<td></td>
+<td>4</td>
+<td>testCases.TS004_TC01_ForgotPassword@2f67b837</td></tr>
+<tr>
+<td title='testCases.TS004_TC01_ForgotPassword.verifyForgotPasword()'><b>verifyForgotPasword</b><br>Test class: testCases.TS004_TC01_ForgotPassword</td>
+<td></td>
+<td>2</td>
+<td>testCases.TS004_TC01_ForgotPassword@2f67b837</td></tr>
+<tr>
+<td title='testCases.TS003_TC01_product_searchByName.search_product()'><b>search_product</b><br>Test class: testCases.TS003_TC01_product_searchByName</td>
+<td></td>
+<td>2</td>
+<td>testCases.TS003_TC01_product_searchByName@146dfe6</td></tr>
+<tr>
+<td title='testCases.TS001_TC03_VerifymandatoryFieldsRegistration.verifyFirstNameField()'><b>verifyFirstNameField</b><br>Test class: testCases.TS001_TC03_VerifymandatoryFieldsRegistration</td>
+<td></td>
+<td>3</td>
+<td>testCases.TS001_TC03_VerifymandatoryFieldsRegistration@3daf7722</td></tr>
+<tr>
+<td title='testCases.TS001_TC01_AccountRegistrationTest.verify_registration_msg()'><b>verify_registration_msg</b><br>Test class: testCases.TS001_TC01_AccountRegistrationTest</td>
+<td></td>
+<td>0</td>
+<td>testCases.TS001_TC01_AccountRegistrationTest@27216cd</td></tr>
+<tr>
+<td title='testCases.TS002_TC02_DataDriventTestLogin.verify_DDTlogin()'><b>verify_DDTlogin</b><br>Test class: testCases.TS002_TC02_DataDriventTestLogin<br>Parameters: laksh@yahoo.com, Lakshmi, Valid</td>
+<td></td>
+<td>3</td>
+<td>testCases.TS002_TC02_DataDriventTestLogin@74589991</td></tr>
+</table><p>
+</body>
+</html>

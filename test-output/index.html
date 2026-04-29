@@ -1,0 +1,797 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Suite" class="navigator-link">
+              <span class="suite-name border-passed">Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Suite" class="navigator-link ">
+                    <span>C:\Users\arpan\eclipse-workspace\Hybrid_OpenCart_Framework\master.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Suite" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Suite" class="navigator-link ">
+                    <span>3 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">18 methods,   18 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods passed suite-Suite"> (hide)</a> <!-- hide-methods passed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods passed suite-Suite"> (show)</a> <!-- show-methods passed suite-Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.TS001_TC01_AccountRegistrationTest" class="method navigator-link" hash-for-method="create_registration">create_registration</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.TS001_TC02_verifyNewsLetterFieldRegistration" class="method navigator-link" hash-for-method="create_registration">create_registration</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.TS003_TC01_product_searchByName" class="method navigator-link" hash-for-method="search_product">search_product</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.TS004_TC01_ForgotPassword" class="method navigator-link" hash-for-method="validateCredentials">validateCredentials</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.TS001_TC03_VerifymandatoryFieldsRegistration" class="method navigator-link" hash-for-method="verifyFirstNameField">verifyFirstNameField</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.TS004_TC01_ForgotPassword" class="method navigator-link" hash-for-method="verifyForgotPasword">verifyForgotPasword</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.TS001_TC03_VerifymandatoryFieldsRegistration" class="method navigator-link" hash-for-method="verifyLastNameField">verifyLastNameField</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.TS002_TC01_verifyLoginTest" class="method navigator-link" hash-for-method="verifyLogin">verifyLogin</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.TS003_TC02_NoProductExists" class="method navigator-link" hash-for-method="verifyNoProductExists">verifyNoProductExists</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.TS003_TC03_searchProductByDescription" class="method navigator-link" hash-for-method="verifyProductnotexist">verifyProductnotexist</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.TS002_TC02_DataDriventTestLogin" class="method navigator-link" hash-for-method="verify_DDTlogin(laksh@yahoo.com, Lakshmi, Valid)">verify_DDTlogin(laksh@yahoo.com, Lakshmi, Valid)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.TS002_TC02_DataDriventTestLogin" class="method navigator-link" hash-for-method="verify_DDTlogin(lakshmi@yahoo.com, Laxmi, Valid)">verify_DDTlogin(lakshmi@yahoo.com, Laxmi, Valid)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.TS002_TC02_DataDriventTestLogin" class="method navigator-link" hash-for-method="verify_DDTlogin(pavanoltraining@gmail.com, test@123, Invalid)">verify_DDTlogin(pavanoltraining@gmail.com, test@123, Invalid)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.TS002_TC02_DataDriventTestLogin" class="method navigator-link" hash-for-method="verify_DDTlogin(abc123@gmail.com, test@123, Valid)">verify_DDTlogin(abc123@gmail.com, test@123, Valid)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.TS002_TC02_DataDriventTestLogin" class="method navigator-link" hash-for-method="verify_DDTlogin(laks@yahoo.com, xyz, Invalid)">verify_DDTlogin(laks@yahoo.com, xyz, Invalid)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.TS001_TC02_verifyNewsLetterFieldRegistration" class="method navigator-link" hash-for-method="verify_newsletterfield">verify_newsletterfield</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.TS001_TC01_AccountRegistrationTest" class="method navigator-link" hash-for-method="verify_registration_msg">verify_registration_msg</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.TS003_TC03_searchProductByDescription" class="method navigator-link" hash-for-method="verifyprodByDescription">verifyprodByDescription</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Suite" class="panel Suite">
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testCases.TS003_TC01_product_searchByName</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="search_product">
+                  </a> <!-- search_product -->
+                  <span class="method-name">search_product</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testCases.TS004_TC01_ForgotPassword</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateCredentials">
+                  </a> <!-- validateCredentials -->
+                  <span class="method-name">validateCredentials</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyForgotPasword">
+                  </a> <!-- verifyForgotPasword -->
+                  <span class="method-name">verifyForgotPasword</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testCases.TS002_TC01_verifyLoginTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyLogin">
+                  </a> <!-- verifyLogin -->
+                  <span class="method-name">verifyLogin</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testCases.TS002_TC02_DataDriventTestLogin</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verify_DDTlogin(laksh@yahoo.com, Lakshmi, Valid)">
+                  </a> <!-- verify_DDTlogin(laksh@yahoo.com, Lakshmi, Valid) -->
+                  <span class="method-name">verify_DDTlogin</span>
+                  <span class="parameters">(laksh@yahoo.com,Lakshmi,Valid)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verify_DDTlogin(lakshmi@yahoo.com, Laxmi, Valid)">
+                  </a> <!-- verify_DDTlogin(lakshmi@yahoo.com, Laxmi, Valid) -->
+                  <span class="method-name">verify_DDTlogin</span>
+                  <span class="parameters">(lakshmi@yahoo.com,Laxmi,Valid)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verify_DDTlogin(pavanoltraining@gmail.com, test@123, Invalid)">
+                  </a> <!-- verify_DDTlogin(pavanoltraining@gmail.com, test@123, Invalid) -->
+                  <span class="method-name">verify_DDTlogin</span>
+                  <span class="parameters">(pavanoltraining@gmail.com,test@123,Invalid)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verify_DDTlogin(abc123@gmail.com, test@123, Valid)">
+                  </a> <!-- verify_DDTlogin(abc123@gmail.com, test@123, Valid) -->
+                  <span class="method-name">verify_DDTlogin</span>
+                  <span class="parameters">(abc123@gmail.com,test@123,Valid)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verify_DDTlogin(laks@yahoo.com, xyz, Invalid)">
+                  </a> <!-- verify_DDTlogin(laks@yahoo.com, xyz, Invalid) -->
+                  <span class="method-name">verify_DDTlogin</span>
+                  <span class="parameters">(laks@yahoo.com,xyz,Invalid)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testCases.TS003_TC02_NoProductExists</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyNoProductExists">
+                  </a> <!-- verifyNoProductExists -->
+                  <span class="method-name">verifyNoProductExists</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testCases.TS001_TC01_AccountRegistrationTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="create_registration">
+                  </a> <!-- create_registration -->
+                  <span class="method-name">create_registration</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verify_registration_msg">
+                  </a> <!-- verify_registration_msg -->
+                  <span class="method-name">verify_registration_msg</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testCases.TS001_TC03_VerifymandatoryFieldsRegistration</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyFirstNameField">
+                  </a> <!-- verifyFirstNameField -->
+                  <span class="method-name">verifyFirstNameField</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyLastNameField">
+                  </a> <!-- verifyLastNameField -->
+                  <span class="method-name">verifyLastNameField</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testCases.TS003_TC03_searchProductByDescription</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyProductnotexist">
+                  </a> <!-- verifyProductnotexist -->
+                  <span class="method-name">verifyProductnotexist</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyprodByDescription">
+                  </a> <!-- verifyprodByDescription -->
+                  <span class="method-name">verifyprodByDescription</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testCases.TS001_TC02_verifyNewsLetterFieldRegistration</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="create_registration">
+                  </a> <!-- create_registration -->
+                  <span class="method-name">create_registration</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verify_newsletterfield">
+                  </a> <!-- verify_newsletterfield -->
+                  <span class="method-name">verify_newsletterfield</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+        </div> <!-- panel Suite -->
+        <div panel-name="test-xml-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\arpan\eclipse-workspace\Hybrid_OpenCart_Framework\master.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Test&quot;&gt;
+    &lt;parameter name=&quot;os&quot; value=&quot;Windows&quot;/&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;Chrome&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;testCases.TS001_TC01_AccountRegistrationTest&quot;/&gt;
+      &lt;class name=&quot;testCases.TS001_TC02_verifyNewsLetterFieldRegistration&quot;/&gt;
+      &lt;class name=&quot;testCases.TS001_TC03_VerifymandatoryFieldsRegistration&quot;/&gt;
+      &lt;class name=&quot;testCases.TS002_TC01_verifyLoginTest&quot;/&gt;
+      &lt;class name=&quot;testCases.TS002_TC02_DataDriventTestLogin&quot;/&gt;
+      &lt;class name=&quot;testCases.TS003_TC01_product_searchByName&quot;/&gt;
+      &lt;class name=&quot;testCases.TS003_TC02_NoProductExists&quot;/&gt;
+      &lt;class name=&quot;testCases.TS003_TC03_searchProductByDescription&quot;/&gt;
+      &lt;class name=&quot;testCases.TS004_TC01_ForgotPassword&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Test --&gt;
+&lt;/suite&gt; &lt;!-- Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Test (9 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="test-group">
+              <span class="test-group-name">Login</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifyLogin</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verify_DDTlogin</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">ProductSearch</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">search_product</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifyNoProductExists</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifyProductnotexist</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">Registration</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">create_registration</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifyFirstNameField</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verify_newsletterfield</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verify_registration_msg</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Suite');
+function tableData_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(18);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'verify_DDTlogin')
+data.setCell(0, 2, 'testCases.TS002_TC02_DataDriventTestLogin')
+data.setCell(0, 3, 12888);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'verify_DDTlogin')
+data.setCell(1, 2, 'testCases.TS002_TC02_DataDriventTestLogin')
+data.setCell(1, 3, 11288);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'verify_DDTlogin')
+data.setCell(2, 2, 'testCases.TS002_TC02_DataDriventTestLogin')
+data.setCell(2, 3, 4103);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'create_registration')
+data.setCell(3, 2, 'testCases.TS001_TC02_verifyNewsLetterFieldRegistration')
+data.setCell(3, 3, 3381);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'create_registration')
+data.setCell(4, 2, 'testCases.TS001_TC01_AccountRegistrationTest')
+data.setCell(4, 3, 3082);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'verify_DDTlogin')
+data.setCell(5, 2, 'testCases.TS002_TC02_DataDriventTestLogin')
+data.setCell(5, 3, 2554);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'search_product')
+data.setCell(6, 2, 'testCases.TS003_TC01_product_searchByName')
+data.setCell(6, 3, 2465);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'validateCredentials')
+data.setCell(7, 2, 'testCases.TS004_TC01_ForgotPassword')
+data.setCell(7, 3, 2448);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'verify_DDTlogin')
+data.setCell(8, 2, 'testCases.TS002_TC02_DataDriventTestLogin')
+data.setCell(8, 3, 2162);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'verifyForgotPasword')
+data.setCell(9, 2, 'testCases.TS004_TC01_ForgotPassword')
+data.setCell(9, 3, 1971);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'verifyLastNameField')
+data.setCell(10, 2, 'testCases.TS001_TC03_VerifymandatoryFieldsRegistration')
+data.setCell(10, 3, 1644);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'verify_newsletterfield')
+data.setCell(11, 2, 'testCases.TS001_TC02_verifyNewsLetterFieldRegistration')
+data.setCell(11, 3, 1616);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'verifyLogin')
+data.setCell(12, 2, 'testCases.TS002_TC01_verifyLoginTest')
+data.setCell(12, 3, 1596);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'verifyFirstNameField')
+data.setCell(13, 2, 'testCases.TS001_TC03_VerifymandatoryFieldsRegistration')
+data.setCell(13, 3, 1545);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'verifyprodByDescription')
+data.setCell(14, 2, 'testCases.TS003_TC03_searchProductByDescription')
+data.setCell(14, 3, 469);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'verify_registration_msg')
+data.setCell(15, 2, 'testCases.TS001_TC01_AccountRegistrationTest')
+data.setCell(15, 3, 461);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'verifyNoProductExists')
+data.setCell(16, 2, 'testCases.TS003_TC02_NoProductExists')
+data.setCell(16, 3, 429);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'verifyProductnotexist')
+data.setCell(17, 2, 'testCases.TS003_TC03_searchProductByDescription')
+data.setCell(17, 3, 389);
+window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 54 seconds</span>
+              <div id="times-div-Suite">
+              </div> <!-- times-div-Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">testCases.TS001_TC01_AccountRegistrationTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setup(Windows, Chrome)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">create_registration</span>
+                <span class="method-start">1956 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verify_registration_msg</span>
+                <span class="method-start">5046 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">5508 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testCases.TS001_TC02_verifyNewsLetterFieldRegistration</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setup(Windows, Chrome)</span>
+                <span class="method-start">5686 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">create_registration</span>
+                <span class="method-start">7469 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verify_newsletterfield</span>
+                <span class="method-start">10853 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">12469 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testCases.TS001_TC03_VerifymandatoryFieldsRegistration</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setup(Windows, Chrome)</span>
+                <span class="method-start">12610 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">verifyFirstNameField</span>
+                <span class="method-start">14169 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyLastNameField</span>
+                <span class="method-start">15715 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">17359 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testCases.TS002_TC01_verifyLoginTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setup(Windows, Chrome)</span>
+                <span class="method-start">17541 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">verifyLogin</span>
+                <span class="method-start">19075 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">20671 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testCases.TS002_TC02_DataDriventTestLogin</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setup(Windows, Chrome)</span>
+                <span class="method-start">20813 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">verify_DDTlogin(pavanoltraining@gmail.com, test@123, Invalid)</span>
+                <span class="method-start">23501 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verify_DDTlogin(lakshmi@yahoo.com, Laxmi, Valid)</span>
+                <span class="method-start">34795 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verify_DDTlogin(laksh@yahoo.com, Lakshmi, Valid)</span>
+                <span class="method-start">36958 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verify_DDTlogin(laks@yahoo.com, xyz, Invalid)</span>
+                <span class="method-start">41062 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verify_DDTlogin(abc123@gmail.com, test@123, Valid)</span>
+                <span class="method-start">53952 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">56507 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testCases.TS003_TC01_product_searchByName</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setup(Windows, Chrome)</span>
+                <span class="method-start">56679 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">search_product</span>
+                <span class="method-start">59722 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">62187 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testCases.TS003_TC02_NoProductExists</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setup(Windows, Chrome)</span>
+                <span class="method-start">62346 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">verifyNoProductExists</span>
+                <span class="method-start">63952 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">64381 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testCases.TS003_TC03_searchProductByDescription</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setup(Windows, Chrome)</span>
+                <span class="method-start">64524 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">verifyProductnotexist</span>
+                <span class="method-start">66085 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyprodByDescription</span>
+                <span class="method-start">66475 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">66945 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testCases.TS004_TC01_ForgotPassword</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setup(Windows, Chrome)</span>
+                <span class="method-start">67096 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">validateCredentials</span>
+                <span class="method-start">68703 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyForgotPasword</span>
+                <span class="method-start">71152 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">73125 ms</span>
+              </div> <!-- configuration-class after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>
